@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int graph [100][100]; // матрица смежности
+int graph[100][100]; // матрица смежности
 int n; // количество вершин
 bool visited[100]; // изначально все false
 
