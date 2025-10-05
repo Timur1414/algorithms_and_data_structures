@@ -4,7 +4,7 @@ using namespace std;
 
 double power(double a, int n) {
     double res = 1;
-    double a_in_power2 = a;
+    double a_in_power2 = a; // a^2^i
     while (n > 0) {
         if (n & 1 == 1)
             res *= a_in_power2;
